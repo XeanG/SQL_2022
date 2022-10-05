@@ -1,0 +1,5 @@
+DELETE FROM Clientes;
+INSERT INTO Clientes VALUES (11, 'Andre baixinho', 'Rua Norte 314', 'F', '540432767', '06021234099', NULL, NULL);
+INSERT INTO Clientes VALUES (09, 'San Ciro', 'Itália, Roma', 'F', '3571987321', '13198712376', NULL, NULL);
+UPDATE Clientes SET nome = 'Andre altinho' WHERE cod_cliente = 11;
+DELETE FROM Clientes WHERE cod_cliente = 09;
